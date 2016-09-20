@@ -13,16 +13,12 @@ public class Person {
 	@Id
 	@GeneratedValue(strategy = GenerationType.AUTO)
 	private Long id;
-	public static final String PROPERTYNAME_ID = "id";
 	
 	private String firstname;
-	public static final String PROPERTYNAME_FIRSTNAME = "firstname";
 	
 	private String lastname;
-	public static final String PROPERTYNAME_LASTNAME = "lastname";
 	
 	private LocalDate birthdate;
-	public static final String PROPERTYNAME_BIRTHDATE  = "birthdate";
 	
 	protected Person() {}
 	
